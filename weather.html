@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="weather.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    
     <title>weather</title>
 </head>
 <body>
     <header>
         
         
-            <img id="img" src="assets/images/WEATHER_LOGO-removebg-preview.png">
+            <img id="img" src="assets/icons/amcharts_weather_icons_1.0.0/animated/cloudy-day-1.svg">
             <section id="sec"><h1>WEATHER</h1></section>
         <div class="searchbar">
             
@@ -23,16 +24,25 @@
     <main>
         <section id="weather">
             <div id="result">
+                <h2 class="city">Meknes</h2>
+               <img src="assets/icons/amcharts_weather_icons_1.0.0/animated/cloudy-day-1.svg" alt="">
+                <p class="temp">27°C</p>
+                <p class="hl">29°/8°</p>
+                <p class="time">Sunny Mon.25 , 16:30 </p>
+                <p class="vent">Vent : 6km/h</p>
+                <p class="hum">humidity : 17%</p>
             </div>
                  
             <section id="days">
                 <div id="divas">
-              <div class="day"></div> <div class="day"></div> 
-              <div class="day"></div>
+              <div class="day" id="d1"><img src="assets/icons/amcharts_weather_icons_1.0.0/animated/thunder.svg"><h3>Tue</h3><p>23°C</p></div> 
+              <div class="day" id="d2"><img src="assets/icons/amcharts_weather_icons_1.0.0/animated/cloudy-day-1.svg"><h3>Wed</h3><p>22°C</p></div> 
+              <div class="day" id="d3"><img src="assets/icons/amcharts_weather_icons_1.0.0/animated/cloudy-day-2.svg"><h3>Thu</h3><p>20°C</p></div>
                 </div>
                 <div id="divos">
-               <div class="day"></div> 
-              <div class="day"></div> <div class="day"></div>
+               <div class="day" id="d4"><img src="assets/icons/amcharts_weather_icons_1.0.0/animated/cloudy-day-3.svg"><h3>Fri</h3><p>19°C</p></div> 
+              <div class="day" id="d5"><img src="assets/icons/amcharts_weather_icons_1.0.0/animated/cloudy.svg"><h3>Sat</h3><p>20°C</p></div> 
+              
                </div>
             </section> 
         </section>
